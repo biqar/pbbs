@@ -1,0 +1,63 @@
+export OMP_NUM_THREADS=1;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.646', '0.646', '0.649'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '1.41', '1.41', '1.37'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.571', '0.571', '0.682'
+1 : expGraph_J_5000000 :  -r 3 : '0.492', '0.491', '0.493'
+1 : starGraph_J_50000000 :  -r 3 : '1.67', '1.67', '1.67'
+incrementalMIS : 0 : weighted time, min=0.949 median=0.957 mean=0.962
+export OMP_NUM_THREADS=2;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.394', '0.394', '0.393'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.609', '0.602', '0.609'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.327', '0.332', '0.33'
+1 : expGraph_J_5000000 :  -r 3 : '0.268', '0.268', '0.268'
+1 : starGraph_J_50000000 :  -r 3 : '0.875', '0.858', '0.854'
+incrementalMIS : 0 : weighted time, min=0.488 median=0.491 mean=0.492
+export OMP_NUM_THREADS=4;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.232', '0.237', '0.234'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.335', '0.336', '0.334'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.189', '0.19', '0.193'
+1 : expGraph_J_5000000 :  -r 3 : '0.168', '0.168', '0.169'
+1 : starGraph_J_50000000 :  -r 3 : '0.357', '0.359', '0.361'
+incrementalMIS : 0 : weighted time, min=0.256 median=0.257 mean=0.257
+export OMP_NUM_THREADS=8;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.149', '0.15', '0.153'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.209', '0.209', '0.207'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.12', '0.118', '0.119'
+1 : expGraph_J_5000000 :  -r 3 : '0.112', '0.109', '0.108'
+1 : starGraph_J_50000000 :  -r 3 : '0.22', '0.221', '0.217'
+incrementalMIS : 0 : weighted time, min=0.159 median=0.161 mean=0.161
+export OMP_NUM_THREADS=16;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.107', '0.107', '0.105'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.138', '0.139', '0.14'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.084', '0.081', '0.081'
+1 : expGraph_J_5000000 :  -r 3 : '0.07', '0.07', '0.073'
+1 : starGraph_J_50000000 :  -r 3 : '0.136', '0.137', '0.136'
+incrementalMIS : 0 : weighted time, min=0.106 median=0.106 mean=0.107
+export OMP_NUM_THREADS=24;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.086', '0.087', '0.085'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.116', '0.115', '0.117'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.068', '0.068', '0.067'
+1 : expGraph_J_5000000 :  -r 3 : '0.054', '0.053', '0.054'
+1 : starGraph_J_50000000 :  -r 3 : '0.119', '0.117', '0.114'
+incrementalMIS : 0 : weighted time, min=0.087 median=0.088 mean=0.088
+export OMP_NUM_THREADS=32;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.074', '0.074', '0.075'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.106', '0.11', '0.108'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.06', '0.059', '0.059'
+1 : expGraph_J_5000000 :  -r 3 : '0.045', '0.044', '0.046'
+1 : starGraph_J_50000000 :  -r 3 : '0.108', '0.108', '0.108'
+incrementalMIS : 0 : weighted time, min=0.078 median=0.079 mean=0.079
+export OMP_NUM_THREADS=40;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.068', '0.072', '0.069'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.094', '0.094', '0.094'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.051', '0.052', '0.053'
+1 : expGraph_J_5000000 :  -r 3 : '0.037', '0.039', '0.038'
+1 : starGraph_J_50000000 :  -r 3 : '0.109', '0.112', '0.111'
+incrementalMIS : 0 : weighted time, min=0.072 median=0.073 mean=0.073
+export OMP_NUM_THREADS=80;./testInputs -x -r 3
+1 : randLocalGraph_J_5_10000000 :  -r 3 : '0.053', '0.054', '0.053'
+1 : rMatGraph_J_5_10000000 :  -r 3 : '0.075', '0.075', '0.076'
+1 : 3Dgrid_J_10000000 :  -r 3 : '0.047', '0.047', '0.047'
+1 : expGraph_J_5000000 :  -r 3 : '0.033', '0.033', '0.033'
+1 : starGraph_J_50000000 :  -r 3 : '0.105', '0.101', '0.103'
+incrementalMIS : 0 : weighted time, min=0.061 median=0.062 mean=0.062

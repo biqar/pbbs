@@ -39,3 +39,6 @@ Currently the benchmarks include the following:
 * [Nbody Forces (NBODY)](https://github.com/biqar/pbbs/tree/master/benchmarks/geometry/nBody)
 
 These are described on the Benchmarks Page.
+
+## Give a Star! :star:
+If you like this project please consider giving it a :star: star :star:. Thanks!
